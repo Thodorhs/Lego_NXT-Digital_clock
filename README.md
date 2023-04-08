@@ -11,3 +11,8 @@ This repo was created based on the Atmel manual for AT91SAM ARM-based Flash MCU
 
 # How to run
 In the makefile change the PREFIX (first line) to the lego toolchange dir e.g PREFIX=../lego-toolchain_23-master
+
+- make clean
+- make
+- set NXT on re-program mode (one way to do this is by the pin hidden on the back of the brick)
+- make download
